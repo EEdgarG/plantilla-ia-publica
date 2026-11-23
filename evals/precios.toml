@@ -1,0 +1,63 @@
+# Precios de la API de Anthropic en USD por millón de tokens (MTok).
+# Fuente: https://platform.claude.com/docs/en/about-claude/pricing
+# Vigentes al 2026-10-06, copiados el 2026-10-09. Revísalos en la fuente antes de reportar un costo.
+#
+# La clave de cada modelo es el ID que devuelve la API en `response.model`.
+# Si una función usa un modelo que no está aquí, su costo sale vacío (nunca se adivina).
+# No se modelan caché de prompts, modo rápido ni precios por tramo.
+
+[modelos."claude-fable-5-1"]
+entrada = 10.00
+salida = 50.00
+
+[modelos."claude-opus-5-5"]
+entrada = 4.00
+salida = 20.00
+
+[modelos."claude-sonnet-5-5"]
+entrada = 2.00
+salida = 10.00
+
+# Para prompts de hasta 100K tokens; arriba de eso cuesta 0.50 / 2.50 y aquí no se modela.
+[modelos."claude-haiku-5-5"]
+entrada = 0.10
+salida = 0.50
+
+# Generaciones anteriores que la API todavía sirve.
+
+[modelos."claude-fable-5"]
+entrada = 10.00
+salida = 50.00
+
+[modelos."claude-opus-5"]
+entrada = 5.00
+salida = 25.00
+
+[modelos."claude-opus-4-8"]
+entrada = 5.00
+salida = 25.00
+
+[modelos."claude-opus-4-7"]
+entrada = 5.00
+salida = 25.00
+
+[modelos."claude-opus-4-6"]
+entrada = 5.00
+salida = 25.00
+
+[modelos."claude-sonnet-5"]
+entrada = 2.00
+salida = 10.00
+
+[modelos."claude-sonnet-4-6"]
+entrada = 3.00
+salida = 15.00
+
+[modelos."claude-haiku-4-5"]
+entrada = 1.00
+salida = 5.00
+
+# Mismo modelo con su ID completo, por si la API lo devuelve así en `response.model`.
+[modelos."claude-haiku-4-5-20251001"]
+entrada = 1.00
+salida = 5.00

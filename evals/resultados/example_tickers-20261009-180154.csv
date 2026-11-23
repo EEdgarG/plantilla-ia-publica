@@ -1,0 +1,11 @@
+id,aprobado,latencia_ms,esperado,obtenido,error,modelo,tokens_entrada,tokens_salida,costo_usd
+emisora-01,true,0.001,"""WALMEX""","""WALMEX""",,,,,
+emisora-02,true,0.001,"""WALMEX""","""WALMEX""",,,,,
+emisora-03,true,0.000,"""WALMEX""","""WALMEX""",,,,,
+emisora-04,true,0.000,"""AMX B""","""AMX B""",,,,,
+emisora-05,true,0.000,"""GFNORTE O""","""GFNORTE O""",,,,,
+emisora-06,true,0.000,"""CEMEX CPO""","""CEMEX CPO""",,,,,
+emisora-07,true,0.000,"""FUNO 11""","""FUNO 11""",,,,,
+emisora-08,true,0.000,"""PE&OLES""","""PE&OLES""",,,,,
+emisora-09,true,0.000,"""LIVEPOL C-1""","""LIVEPOL C-1""",,,,,
+emisora-10,true,0.000,"""NAFTRAC ISHRS""","""NAFTRAC ISHRS""",,,,,

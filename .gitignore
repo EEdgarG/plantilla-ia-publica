@@ -1,0 +1,13 @@
+# Secretos y entorno local
+.env
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Los CSV de evals/resultados/ sí se versionan: son la evidencia de los evals.

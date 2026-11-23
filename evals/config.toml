@@ -1,0 +1,11 @@
+# Cada suite conecta un archivo de casos con una función del proyecto.
+#   casos:   ruta del JSONL, relativa a evals/
+#   funcion: "modulo:funcion"; recibe la `entrada` de cada caso como único argumento
+#   umbral:  fracción mínima de casos aprobados (1.0 = todos)
+# Todas: `uv run python evals/correr.py`. Una: `uv run python evals/correr.py --suite NOMBRE`.
+
+# Ejemplo de la plantilla: borra este bloque junto con el ejemplo.
+[suites.example_tickers]
+casos = "casos/example_tickers.jsonl"
+funcion = "app.example_tickers:normalize_ticker"
+umbral = 1.0

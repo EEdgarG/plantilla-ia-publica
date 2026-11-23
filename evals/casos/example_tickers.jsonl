@@ -1,0 +1,10 @@
+{"id": "emisora-01", "entrada": " walmex * ", "esperado": "WALMEX", "calificacion": "exacta", "nota": "ejemplo de la spec"}
+{"id": "emisora-02", "entrada": "walmex*", "esperado": "WALMEX", "calificacion": "exacta", "nota": "serie * pegada a la emisora"}
+{"id": "emisora-03", "entrada": "WALMEX", "esperado": "WALMEX", "calificacion": "exacta", "nota": "ya normalizada"}
+{"id": "emisora-04", "entrada": "amx b", "esperado": "AMX B", "calificacion": "exacta", "nota": "conserva una serie distinta de *"}
+{"id": "emisora-05", "entrada": "  gfnorte   o  ", "esperado": "GFNORTE O", "calificacion": "exacta", "nota": "espacios repetidos"}
+{"id": "emisora-06", "entrada": "\tcemex cpo\n", "esperado": "CEMEX CPO", "calificacion": "exacta", "nota": "tabulador y salto de línea"}
+{"id": "emisora-07", "entrada": "funo 11", "esperado": "FUNO 11", "calificacion": "exacta", "nota": "serie numérica de una FIBRA"}
+{"id": "emisora-08", "entrada": "pe&oles *", "esperado": "PE&OLES", "calificacion": "exacta", "nota": "& en la emisora (Peñoles)"}
+{"id": "emisora-09", "entrada": "livepol c-1", "esperado": "LIVEPOL C-1", "calificacion": "exacta", "nota": "serie con guion"}
+{"id": "emisora-10", "entrada": "Naftrac Ishrs", "esperado": "NAFTRAC ISHRS", "calificacion": "exacta", "nota": "ETF con mayúsculas mezcladas"}
